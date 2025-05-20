@@ -156,7 +156,7 @@
                 </a>
                 <a id="copyUrl" href="#" class="copyText copyUrl nanum-font">링크 복사</a>
                 <div>
-                    <textarea id="url" readonly="">https://teenager_invitation.netlify.app/</textarea>
+                    <textarea id="url" readonly="">https://teenager-invitation.netlify.app/</textarea>
                     <script>
                         $(".copyUrl").click(function () {
                             $("#url").select();
@@ -181,7 +181,7 @@
                         console.log("shareMessage called");
                         try {
                             Kakao.Share.sendScrap({
-                                requestUrl: "https://teenager_invitation.netlify.app/",
+                                requestUrl: "https://teenager-invitation.netlify.app/",
                             });
                             console.log("Share request sent");
                         } catch (error) {
